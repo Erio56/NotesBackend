@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "ES2022",  
+    "strict": true,
+    "outDir": "dist",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*.ts", 
+    "src/Infrastructure/Persistance/Sqlite/MikroORM/mikro-orm.config.ts"  
+  ],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}
